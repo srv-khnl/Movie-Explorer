@@ -17,12 +17,14 @@ function App() {
   return (
     <>
       <div className="cards-container">
+          <Card/>
+          <Card title="Avengers: Secret Wars"
+          genre ="Sci-Fi, Action" />
           <Card
             title="Avengers: Doomsday"
             image={doomsday}
             releaseDate="2026-12-18"
             genre="Action, Sci-Fi"
-            rating="N/A"
             trailerUrl="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
           />
           <Card
@@ -30,7 +32,6 @@ function App() {
             image={oddyssey}
             releaseDate="2026-07-17"
             genre="Action"
-            rating="N/A"
             trailerUrl="https://www.youtube.com/watch?v=Z12d0wGOWEk"
           />
           <Card
